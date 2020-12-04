@@ -4,7 +4,7 @@
   "description": "Made with create-react-library",
   "author": "rellis4",
   "license": "MIT",
-  "repository": "rellis4/react-chromatophore",
+  "repository": "https://git.eogresources.com/eog/react-chromatophore",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
