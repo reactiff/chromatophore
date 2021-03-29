@@ -1,0 +1,25 @@
+.chrome-picker {
+    width: 100% !important;
+    /* height: 100px !important; */
+    margin: 8px 0 16px 0;
+}
+
+.chrome-picker > div:nth-child(1) {
+    /* height: 100px !important; */
+}
+
+.chrome-picker > div:nth-child(1) > div:nth-child(1) {
+    /* height: 100px !important; */
+}
+
+.chrome-picker > div:nth-child(2) {
+    display: none;
+}
+
+.hue-picker {
+    width: 100% !important;
+}
+
+.color-picker-popup {
+    box-shadow: 0 0 16px 0px #000000;
+}

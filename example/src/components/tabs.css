@@ -1,0 +1,58 @@
+.tabs-container.justify-center {
+    justify-content: center;
+}
+.tabs-container.justify-left {
+    justify-content: flex-start;
+}
+.tabs-container.justify-right {
+    justify-content: flex-end;
+}
+.tabs-container.justify-stretch {
+    justify-content: stretch;
+}
+
+.tab-content {
+    
+}
+
+.tabs.full-width {
+    width: 100%;
+}
+
+.tabs > .tab {
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.tabs > .tab:not(:last-child) {
+    margin-right: 1px;
+}
+
+.tabs > .tab.selected { 
+    cursor: default;
+}
+.tabs.xs > .tab{
+    font-size: 0.875rem;
+    padding: 0px 2px;
+}
+.tabs.sm > .tab{
+    font-size: 0.875rem;
+    padding: 1px 3px;
+}
+.tabs.md > .tab{
+    font-size: 1rem;
+    padding: 2px 3px;
+}
+.tabs.lg > .tab{
+    font-size: 1.1rem;
+    padding: 3px 5px;
+}
+.tabs.xl > .tab{
+    font-size: 1.2rem;
+    padding: 5px 7px;
+}
+
+
+
